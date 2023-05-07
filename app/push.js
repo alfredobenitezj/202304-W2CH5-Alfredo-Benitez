@@ -1,12 +1,10 @@
-const alumnClass = ["Raquel", "Silvia", "Alfredo"];
+const addPush = (array, ...ElementAdding) => {
+  const objectToPUsh = [...ElementAdding];
 
-let newPush = (array, pushedElement = "Marco") => {
-  for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+  for (let index = 0; index < objectToPUsh.length; index++) {
+    array[array.length] = objectToPUsh[index];
   }
+
+  return array.length;
 };
-
-newPush(alumnClass, "Marco");
-
-
-export newPush;
+export { addPush };
