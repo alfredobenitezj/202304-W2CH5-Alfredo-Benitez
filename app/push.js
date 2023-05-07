@@ -1,5 +1,3 @@
-let array = ["Raquel", "Silvia", "sofia"];
-
 const addPush = (array, ...ElementAdding) => {
   const objectToPUsh = [...ElementAdding];
 
