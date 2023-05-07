@@ -1,10 +1,7 @@
-const addPush = (array, ...ElementAdding) => {
-  const objectToPUsh = [...ElementAdding];
-
-  for (let index = 0; index < objectToPUsh.length; index++) {
-    array[array.length] = objectToPUsh[index];
+const alumn = ["alejandro", "Coba"];
+const addWord = (Array, ...addelement) => {
+  let AddAlumn = [..."Joseba"];
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
   }
-
-  return array.length;
 };
-export { addPush };
